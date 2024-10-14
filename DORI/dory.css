@@ -1,0 +1,269 @@
+/* Estilo geral */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url(transferir.jpeg);    
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+  }
+  
+  /* Cabeçalho */
+  header {
+    backdrop-filter: brightness(60%);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5em;
+  }
+  
+  /* Menu de navegação */
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin: 0 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    color: #999;
+  }
+  
+  /* Seções */
+  section {
+    padding: 40px 0;
+    
+  }
+  
+  section h2 {
+    margin: 0;
+    font-size: 2em;
+  }
+  #sobre{
+    margin-left: 10px;
+  }
+  
+  /* Seção Sobre */
+  #sobre p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  #sobre ul {
+    list-style: disc;
+    padding-left: 20px;
+  }
+  
+  /* Seção Projetos */
+  .linha_projeto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  #projetos {
+    text-align: center;
+  }
+  
+  .projetos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .projeto {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+  
+  .projeto h3 {
+    margin: 0 0 10px 0;
+    font-size: 1.6em;
+  }
+  
+  .projeto p {
+    margin-bottom: 10px;
+  }
+  
+  .projeto a {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .projeto a:hover {
+    background-color: #555;
+  }
+  
+  /* Seção Eventos */
+  #eventos {
+    text-align: center;
+  }
+  
+  .eventos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .evento {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+  
+  .evento h3 {
+    margin: 0 0 10px 0;
+    font-size: 1.6em;
+  }
+  
+  .evento p {
+    margin-bottom: 10px;
+  }
+  
+  .evento a {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .evento a:hover {
+    background-color: #555;
+  }
+  
+  /* Seção Notícias */
+  #noticias {
+    text-align: center;
+    
+  }
+  
+  .noticias {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .noticia {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+  
+  .noticia h3 {
+    margin: 0 0 10px 0;
+  }
+  .noticia p {
+    margin-bottom: 10px;
+  }
+  
+  .noticia a {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .noticia a:hover {
+    background-color: #555;
+  }
+  /* contato */
+  /* Estilos para a Seção de Contato */
+#contato {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  backdrop-filter: url(transferir.jpeg);
+  backdrop-filter: brightness(60%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #d1cfcf;
+}
+
+img {opacity: 0.2;}
+#contato h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+#contato p {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #f3f0f0;
+}
+
+/* Estilos para o Formulário */
+#contato form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+#contato label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+#contato input[type="text"],
+#contato input[type="email"],
+#contato textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+#contato textarea {
+  height: 150px;
+  resize: vertical;
+}
+
+#contato button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#contato button[type="submit"]:hover {
+  background-color: #45a049;
+}
+

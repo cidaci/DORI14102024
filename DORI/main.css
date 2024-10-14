@@ -1,0 +1,91 @@
+
+/* Estilo geral */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+html, body {
+  ::-webkit-scrollbar { overflow-y:hidden; }
+}
+/* Layout principal */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.aside {
+  width: 350px;
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+.main-content {
+  
+  flex: 1;
+  padding: 330px;
+  background: url(peixe.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  gap: 50px;
+  
+}
+.aside ul {
+  list-style: none; /* Remover marcadores de lista */
+  padding: 0; /* Remover espaçamento padrão */
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  
+}
+
+.button-list {
+  display: flex; /* Organizar botões na horizontal */
+  flex-wrap: wrap; /* Permitir quebrar em várias linhas */
+  justify-content: space-around; /* Distribuir botões com espaço */
+  margin: 0; /* Remover margem padrão */
+  
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  background-color: rgb(98, 99, 100);
+}
+
+.button:hover {
+  background-color: #f0f0f0; /* Cor de fundo ao passar o mouse */
+}
+
+.icon {
+  margin-left: 5px; /* Espaçamento entre texto e ícone */
+}
+
+li a {
+  text-decoration: none;
+  color: rgb(247, 242, 242);
+  font-weight: 700;
+}
+
+/* Layout responsivo */
+@media screen and (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .aside {
+    width: 100%;
+    
+  }
+}
+li{
+list-style: none;
+}
